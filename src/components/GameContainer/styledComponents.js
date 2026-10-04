@@ -52,10 +52,14 @@ export const PopupCloseButton = styled.button`
   align-self: flex-end;
 `
 
-export const RulesImage = styled.img`
-  width: 100%;
+export const RulesImageContainer = styled.div`
   padding: 12px;
   @media screen and (min-width: 768px) {
     padding: 18px;
   }
+`
+
+export const RulesImage = styled.img`
+  width: 100%;
+  border-radius: 12px;
 `

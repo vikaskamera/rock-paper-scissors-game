@@ -10,6 +10,7 @@ import {
   RulesButton,
   PopupContainer,
   PopupCloseButton,
+  RulesImageContainer,
   RulesImage,
 } from './styledComponents'
 
@@ -97,10 +98,12 @@ class GameContainer extends Component {
               <PopupCloseButton onClick={() => close()}>
                 <RiCloseLine size={21} />
               </PopupCloseButton>
-              <RulesImage
-                src="https://assets.ccbp.in/frontend/react-js/rock-paper-scissor/rules-image.png"
-                alt="rules image"
-              />
+              <RulesImageContainer>
+                <RulesImage
+                  src="https://assets.ccbp.in/frontend/react-js/rock-paper-scissor/rules-image.png"
+                  alt="rules image"
+                />
+              </RulesImageContainer>
             </PopupContainer>
           )}
         </Popup>
